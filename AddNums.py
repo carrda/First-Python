@@ -1,0 +1,5 @@
+num1 = raw_input("Input a number: ")
+num2 = raw_input("Input a 2nd number: ")
+total = int(num1) + int(num2)
+print("Total is " + str(total))
+print("Total is {0}".format(total))
